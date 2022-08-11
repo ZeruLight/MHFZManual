@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="株式会社カプコンが運営するオンラインゲーム『モンスターハンター フロンティアＺ(MHF-Ｚ)』の公式WEBサイト。">
+  <meta name="keywords" content="モンスターハンター,フロンティア,Ｚ,mhf,monster hunter frontierＺ,オンラインゲーム,動画,カプコン,CAPCOM">
+  <meta content="text/css" http-equiv="content-style-type">
+  <meta content="text/javascript" http-equiv="content-script-type">
+  <title>MHF-Ｚオンラインマニュアル</title>
+  <link href="css/common.css" rel="stylesheet" type="text/css">
+  <link href="css/top.css" rel="stylesheet" type="text/css">
+  <link href="css/left_column.css" rel="stylesheet" type="text/css">
+  <script>
+  /*
+  Comments here for for a theoretical permalink version
+  Though the original manual ran on httpd, this is static
+  You could make this work with window pushState and onpopstate listeners but I couldn't get it to work 100%
+  */
+  //var currentPath = 'top.html';
+  async function include() {
+    let z = document.getElementsByTagName('*');
+    for (i = 0; i < z.length; i++) {
+      e = z[i];
+      path = e.getAttribute('includes');
+      if (path) {
+        //console.log(path);
+        try {
+          e.removeAttribute('includes')
+          let response = await fetch(path);
+          e.innerHTML = await response.text();
+          $(function() {
+            $('a.zoom').colorbox();
+          });
+        } catch (err) {
+          console.log('error loading menu');
+        }
+      }
+    }
+  }
+  function setArticle(path, back = false) {
+    /*
+    if (!back) {
+      window.history.pushState(currentPath, 'MHF-Ｚオンラインマニュアル', '/'+path);
+    }
+    */
+    var ab = document.getElementById('articleBox');
+    ab.setAttribute('includes', path);
+    //currentPath = path;
+    include();
+  }
+  /*
+  window.onpopstate = function(e) {
+    console.log('window pop');
+    console.log(e);
+    if (e.state) {
+      setArticle(e.state, true);
+    }
+  };
+  */
+  </script>
+</head>
+<body>
+  <div id="box">
+    <div id="head">
+      <h1><img src="img/head_ps4.jpg" alt="PlayStation®4版モンスターハンター フロンティアＺ オンラインマニュアル" width="830" height="132"></h1>
+      <div id="search">
+        <!--form action="search.html" method="get"-->
+        <input type="text" name="wd" maxlength="40" class="w134">
+        <input name="imageField" type="image" src="img/search_btn.jpg" align="middle" alt="検索">
+        <!--/form-->
+      </div>
+    </div>
+    <div id="container">
+      <div class="articleBox" id="articleBox" includes="top.html"></div>
+      <div class="menuBox" includes="menu.html"></div>
+    </div>
+    <div id="footer"><div id="logo_box"><div class="ft_bottom"><script src="js/copyright.js" type="text/javascript"></script></div></div></div>
+  </div>
+</body>
+<script>
+/*
+let params = new URLSearchParams(window.location.search);
+if (params.get('page')) {
+  setArticle('page'+params.get('page'));
+}
+*/
+include();
+</script>
+<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript" src="js/ini.js"></script>
+</html>

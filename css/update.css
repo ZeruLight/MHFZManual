@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+html{overflow-y:scroll;}
+body{margin:0; padding:0; color:#573700; font-size:0.8em; line-height:130%; font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", sans-selif; background-color:#fef5e6;}
+p,ul,ol,li,dl,dt,dd,form,input,h1,h2,h3,h4,h5{margin:0; padding:0;}
+img{border:none; vertical-align:bottom;}
+a:link{color:#64408C; text-decoration:none;}
+a:visited{color:#52245B; text-decoration:none;}
+a:hover{text-decoration:underline; color:#9353E1;}
+
+/**************/
+/*　更新履歴　*/
+/**************/
+
+.info{margin:10px 5px; width:520px;}
+	.info .date{float:left; width:75px;}
+	.info .news{margin-left:90px;}
+.indent{margin:5px 0px 5px 16px;}

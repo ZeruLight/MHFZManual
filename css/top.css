@@ -1,0 +1,66 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/**************/
+/*　更新履歴　*/
+/**************/
+
+#updatelog{
+	border:1px solid #573700;
+}
+
+
+/**********************/
+/*　注目のコンテンツ　*/
+/**********************/
+
+ul#topbnr {
+	position: relative;
+	width: 560px;
+	overflow: hidden;
+	margin-top: -6px;
+	margin-left: 0;
+	list-style: none;
+}
+ul#topbnr li {
+	margin-right: 2px;
+	float: left;
+}
+
+ul#topbtn {
+	margin-top: -6px;
+	margin-left: 0;
+	list-style: none;
+}
+ul#topbtn li {
+	position:relative;
+}
+ul#topbtn li a {
+	position:absolute;
+	left:350px;
+	top:38px;
+}
+
+/****************/
+/*　外部リンク　*/
+/****************/
+#extenal_links {
+	margin-top: 50px;
+}
+#extenal_links p.head {
+	background: url(../img/head_arrow.gif) no-repeat left center;
+	padding-left: 15px;
+	line-height: 18px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+ul#extbnr {
+	margin-top: 0;
+	margin-bottom: 40px;
+	margin-left: 0;
+	list-style: none;
+}
+ul#extbnr li {
+	margin: 4px 0;
+}

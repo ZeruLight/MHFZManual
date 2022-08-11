@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { overflow-y: scroll; }
+
+body {
+	background: url(../img/bg.jpg) repeat-y left top #4c3e36;
+	margin: 0;
+	padding: 0;
+	line-height:130%;
+	font-size: 0.8em;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", sans-selif;
+	color: #573700;
+}
+
+a {
+	cursor: pointer;
+}
+
+p, ul, ol, li, dl, dt, dd, form, input, h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.0em;
+}
+
+p+p {
+	margin-top: 0.75em;
+}
+
+img {
+	border: none;
+	vertical-align: bottom;
+}
+
+a:link {
+	color: #64408c;
+	text-decoration: none;
+}
+a:visited {
+	color: #52245b;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #9353e1;
+}
+
+
+/**************/
+/*　全体囲み　*/
+/**************/
+#box {
+}
+
+
+/**************/
+/*　ヘッダー　*/
+/**************/
+#head {
+	position: relative;
+	width: 830px;
+	height: 132px;
+}
+	h1 {
+	}
+
+	/* 検索 */
+	#search {
+		position: absolute;
+		top: 91px;
+		left: 470px;
+		height: 26px;
+		padding: 0;
+		width: 315px;
+	}
+
+	#search input {
+	    vertical-align: middle;
+	}
+
+	#search .w134 {
+		width: 240px;
+		padding: 0;
+		margign: 0;
+	}
+
+/**************/
+/*　フッター　*/
+/**************/
+#footer {
+	background: url(../img/foot_def.jpg) no-repeat;
+	width: 668px;
+	height: 53px;
+	padding: 64px 160px 12px 12px;
+}
+	#footer #logo_box {
+		position:relative;
+		width: 668px;
+		height: 53px;
+	}
+
+	#footer #logo_box .ft_top {
+		position: absolute;
+		left: 0;
+		top: 0;
+		font-size: 10px;
+		line-height: 12px;
+		color: #999;
+	}
+	#footer #logo_box .ft_bottom {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		height:14px;
+		font-size: 12px;
+		color: #fff;
+	}
+
+#footer.ps3Only{ background-image: url(../img/foot_def.jpg); }
+
+#footer.psvOnly{ background-image: url(../img/foot_def.jpg); }
+
+/******************/
+/*　２カラム領域　*/
+/******************/
+#container {
+	position: relative;
+	width: 800px;
+	overflow: hidden;
+}
+
+
+/**************/
+/*　　記事　　*/
+/**************/
+
+.articleBox {
+	position: relative;
+	width: 560px;
+	padding-bottom: 40px;
+	float: right;
+}
+	.articleBox h2 {
+		background: url(../img/h2_line.gif) repeat-x left center;
+		margin-top: 10px;
+		margin-bottom: 16px;
+		line-height: 26px;
+		font-size: 24px;
+		font-weight: normal;
+	}
+		.articleBox h2 span {
+			background: #fcfaf3;
+			padding-right: 10px;
+		}
+
+	.articleBox p.submenu {
+		margin-bottom: 16px;
+	}
+
+	.articleBox .articleBtm {
+		margin-top: 20px;
+		margin-bottom: -30px;
+		text-align: center;
+	}
+
+
+/****************/
+/*　セクション　*/
+/****************/
+
+.articleBox .section {
+	position: relative;
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+	.articleBox .section h3 {
+		background: url(../img/h3_head.gif) no-repeat left center;
+		margin-bottom: 6px;
+		padding-left: 18px;
+		line-height: 26px;
+		font-size: 24px;
+		font-weight: bold;
+		color: #356138;
+	}
+
+	.articleBox .section p.leadtxt {
+		color: #356138;
+	}
+
+	.articleBox .section p.sectionBtm {
+		position: absolute;
+		line-height: 1.4em;
+		bottom: -1.4em;
+		right: 0;
+	}
+
+
+/*　子セクション　*/
+.articleBox .section .subsection {
+	margin-top: 20px;
+}
+	.articleBox .section h3+.subsection { margin-top: 10px; }
+
+	.articleBox .section .subsection h4 {
+		margin-bottom: 2px;
+		line-height: 17px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+
+/*　孫セクション　*/
+.articleBox .section .subsection .sub2section {
+	margin-top: 10px;
+}
+	.articleBox .section .subsection .sub2section h5 {
+		margin-bottom: 2px;
+		font-weight: bold;
+	}
+
+
+/**************/
+/*　メニュー　*/
+/**************/
+
+.menuBox {
+	width: 238px;
+	height: auto;
+	float: left;
+}
+
+
+/**************/
+/*　汎用装飾　*/
+/**************/
+
+/* 【Click】付きアンカーテキスト */
+a.click {
+	overflow: hidden;
+	background: url(../img/icon_click.gif) no-repeat left center;
+	padding: 4px 0 6px 64px;
+	line-height: 20px;
+}
+
+/* 【CHECK】アイコン付きテキスト */
+.check {
+	overflow: hidden;
+	background: url(../img/icon_check.gif) no-repeat left top;
+	padding-top: 1.2em;
+}
+
+/* ◇付き見出し（h4） */
+.head_dia {
+	background: url(../img/head_dia.gif) no-repeat left center;
+	padding-left: 19px;
+	font-weight: bold;
+}
+
+/* ＞付き見出し（h5） */
+.head_arrow {
+	background: url(../img/head_arrow.gif) no-repeat 1px center;
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+/* 注釈テキスト（文字サイズ小） */
+.notice {
+	font-size: 85%;
+}
+
+/* 注意テキスト（赤字） */
+.attention {
+	color: red;
+}
+
+/* トピック枠 */
+.topicBox {
+	background:#ffc;
+	margin-top: 10px;
+	padding: 5px 8px 6px;
+	border: #630 dashed 1px;
+}
+	/* トピック枠見出し */
+	.topicBox>h4, .topicBox>h5, .topicBox>h6 {
+		background: url(../img/topic_head.gif) no-repeat left center;
+		padding: 4px 0 4px 24px;
+		line-height: 16px;
+		font-weight: bold;
+	}
+
+/* 画像 */
+.imgBox {
+	position:relative;
+	margin-top: 5px;
+	overflow: hidden;
+	zoom: 1;
+}
+	.imgBox img {
+		float: left;
+		padding: 1px 10px 5px 1px;
+	}
+
+	/* 拡大 */
+	.imgBox a.zoom {
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: url(../img/icon_zoom.gif) no-repeat right bottom;
+		width: 217px;
+		height: 162px;
+		display: block;
+		border: 1px solid #fdfaf3;
+	}
+	.imgBox a.zoom:hover {
+		border: 1px solid #9353e1;
+	}
+
+/* テーブル */
+table {
+	width: 540px;
+	margin-top: 5px;
+	padding: 2px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: solid 1px #573700;
+}
+	table th, table td{
+		background-color: #f7e5d3;
+		padding: 3px 5px;
+		text-align: left;
+		vertical-align: middle;
+		font-size: 1.0em;
+		font-weight: normal;
+		border: solid 1px #573700;
+	}
+	table th{
+		background-color: #eace81;
+	}
+	table td{
+		background-color: #fdfaf3;
+	}
+
+body#psvita{font-size:16px; line-height:1.4em;}
+body#psvita p, body#psvita ul, body#psvita ol, body#psvita li,
+body#psvita dl, body#psvita dt, body#psvita dd,
+body#psvita form, body#psvita input,
+body#psvita h1, body#psvita h2, body#psvita h3, body#psvita h4, body#psvita h5 {font-size: 18px; line-height:1.4em;}
+body#psvita .articleBox .section .subsection h4{font-size: 22px; line-height:1.4em;}
+body#psvita .notice{font-size:16px; line-height:1.4em;}
+body#psvita table th, body#psvita table td{font-size: 18px; line-height:1.4em;}
+body#psvita table.list-a th{white-space:nowrap;}
+body#psvita .articleBox .section h3{font-size:24px; line-height:26px;}
