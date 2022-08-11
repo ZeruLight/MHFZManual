@@ -22,7 +22,7 @@ if (!window.env.isConsole) {
 	_dw += '<script type="text/javascript" src="js/libs/jquery.1.7.2.min.js"></script>';
 	_dw += '<script type="text/javascript" src="js/libs/jquery.colorbox-min.js"></script>';
 	_dw += '<script type="text/javascript" src="js/run.js"></script>';
-	_dw += '<link href="/css/colorbox.css" rel="stylesheet" type="text/css">';
+	_dw += '<link href="css/colorbox.css" rel="stylesheet" type="text/css">';
 	window.fnc.docwrite(_dw);
 }
 
