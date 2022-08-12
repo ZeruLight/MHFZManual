@@ -8,45 +8,45 @@
 ul#l_menu{list-style:none; margin:5px 0 0 12px; width:218px; padding-bottom:12px;}
 	ul#l_menu>li>a{display:block; width:200px; height:32px; background:no-repeat 0px 0px;}
 		ul#l_menu>li>a:hover,ul#l_menu>li.crr>a{background-position:0px -32px;}/*,ul#l_menu>li.current>a*/
-		ul#l_menu>li#category_top>a{background-image:url(../img/btn_top.gif)}
-		ul#l_menu>li#category_word>a{background-image:url(../img/btn_word.gif)}
-		ul#l_menu>li#category_entry>a{background-image:url(../img/btn_entry.gif)}
-		ul#l_menu>li#category_begin>a{background-image:url(../img/btn_begin.gif)}
-		ul#l_menu>li#category_payment>a{background-image:url(../img/btn_payment.gif)}
-		ul#l_menu>li#category_mypage>a{background-image:url(../img/btn_mypage.gif)}
-		ul#l_menu>li#category_longplay>a{background-image:url(../img/btn_longplay.gif)}
-		ul#l_menu>li#category_play>a{background-image:url(../img/btn_play.gif)}
-		ul#l_menu>li#category_cmn>a{background-image:url(../img/btn_cmn.gif)}
-		ul#l_menu>li#category_time>a{background-image:url(../img/btn_time.gif)}
-		ul#l_menu>li#category_mez>a{background-image:url(../img/btn_mez.gif)}
-		ul#l_menu>li#category_bar>a{background-image:url(../img/btn_bar.gif)}
-		ul#l_menu>li#category_kouryu>a{background-image:url(../img/btn_kouryu.gif)}
-		ul#l_menu>li#category_hr>a{background-image:url(../img/btn_hr.gif)}
-		ul#l_menu>li#category_hidensyo>a{background-image:url(../img/btn_hidensyo.gif)}
-		ul#l_menu>li#category_quest>a{background-image:url(../img/btn_quest.gif)}
-		ul#l_menu>li#category_filed>a{background-image:url(../img/btn_filed.gif)}
-		ul#l_menu>li#category_monster>a{background-image:url(../img/btn_monster.gif)}
-		ul#l_menu>li#category_item>a{background-image:url(../img/btn_item.gif)}
-		ul#l_menu>li#category_weapon>a{background-image:url(../img/btn_weapon.gif)}
-		ul#l_menu>li#category_armor>a{background-image:url(../img/btn_armor.gif)}
-		ul#l_menu>li#category_production>a{background-image:url(../img/btn_production.gif)}
-		ul#l_menu>li#category_skill>a{background-image:url(../img/btn_skill.gif)}
-		ul#l_menu>li#category_ornament>a{background-image:url(../img/btn_ornament.gif)}
-		ul#l_menu>li#category_ryodan>a{background-image:url(../img/btn_ryodan.gif)}
-		ul#l_menu>li#category_partnyer>a{background-image:url(../img/btn_partnyer.gif)}
-		ul#l_menu>li#category_rusta>a{background-image:url(../img/btn_rusta.gif)}
-		ul#l_menu>li#category_partner>a{background-image:url(../img/btn_partner.gif)}
-		ul#l_menu>li#category_tenrou>a{background-image:url(../img/btn_tenrou.gif)}
-		ul#l_menu>li#category_caravan>a{background-image:url(../img/btn_caravan.gif)}
-		ul#l_menu>li#category_regular>a{background-image:url(../img/btn_regular.gif)}
-		ul#l_menu>li#category_carnival>a{background-image:url(../img/btn_carnival.gif)}
-		ul#l_menu>li#category_g>a{background-image:url(../img/btn_g.gif)}
-		ul#l_menu>li#category_other>a{background-image:url(../img/btn_other.gif)}
+		ul#l_menu>li#category_top>a{background-image:url(../img/menu/btn_top.gif)}
+		ul#l_menu>li#category_word>a{background-image:url(../img/menu/btn_word.gif)}
+		ul#l_menu>li#category_entry>a{background-image:url(../img/menu/btn_entry.gif)}
+		ul#l_menu>li#category_begin>a{background-image:url(../img/menu/btn_begin.gif)}
+		ul#l_menu>li#category_payment>a{background-image:url(../img/menu/btn_payment.gif)}
+		ul#l_menu>li#category_mypage>a{background-image:url(../img/menu/btn_mypage.gif)}
+		ul#l_menu>li#category_longplay>a{background-image:url(../img/menu/btn_longplay.gif)}
+		ul#l_menu>li#category_play>a{background-image:url(../img/menu/btn_play.gif)}
+		ul#l_menu>li#category_cmn>a{background-image:url(../img/menu/btn_cmn.gif)}
+		ul#l_menu>li#category_time>a{background-image:url(../img/menu/btn_time.gif)}
+		ul#l_menu>li#category_mez>a{background-image:url(../img/menu/btn_mez.gif)}
+		ul#l_menu>li#category_bar>a{background-image:url(../img/menu/btn_bar.gif)}
+		ul#l_menu>li#category_kouryu>a{background-image:url(../img/menu/btn_kouryu.gif)}
+		ul#l_menu>li#category_hr>a{background-image:url(../img/menu/btn_hr.gif)}
+		ul#l_menu>li#category_hidensyo>a{background-image:url(../img/menu/btn_hidensyo.gif)}
+		ul#l_menu>li#category_quest>a{background-image:url(../img/menu/btn_quest.gif)}
+		ul#l_menu>li#category_filed>a{background-image:url(../img/menu/btn_filed.gif)}
+		ul#l_menu>li#category_monster>a{background-image:url(../img/menu/btn_monster.gif)}
+		ul#l_menu>li#category_item>a{background-image:url(../img/menu/btn_item.gif)}
+		ul#l_menu>li#category_weapon>a{background-image:url(../img/menu/btn_weapon.gif)}
+		ul#l_menu>li#category_armor>a{background-image:url(../img/menu/btn_armor.gif)}
+		ul#l_menu>li#category_production>a{background-image:url(../img/menu/btn_production.gif)}
+		ul#l_menu>li#category_skill>a{background-image:url(../img/menu/btn_skill.gif)}
+		ul#l_menu>li#category_ornament>a{background-image:url(../img/menu/btn_ornament.gif)}
+		ul#l_menu>li#category_ryodan>a{background-image:url(../img/menu/btn_ryodan.gif)}
+		ul#l_menu>li#category_partnyer>a{background-image:url(../img/menu/btn_partnyer.gif)}
+		ul#l_menu>li#category_rusta>a{background-image:url(../img/menu/btn_rusta.gif)}
+		ul#l_menu>li#category_partner>a{background-image:url(../img/menu/btn_partner.gif)}
+		ul#l_menu>li#category_tenrou>a{background-image:url(../img/menu/btn_tenrou.gif)}
+		ul#l_menu>li#category_caravan>a{background-image:url(../img/menu/btn_caravan.gif)}
+		ul#l_menu>li#category_regular>a{background-image:url(../img/menu/btn_regular.gif)}
+		ul#l_menu>li#category_carnival>a{background-image:url(../img/menu/btn_carnival.gif)}
+		ul#l_menu>li#category_g>a{background-image:url(../img/menu/btn_g.gif)}
+		ul#l_menu>li#category_other>a{background-image:url(../img/menu/btn_other.gif)}
 
-		ul#l_menu div.sub{display:none; width:216px;padding-bottom:10px; background:url(../img/sub_bottom.gif) no-repeat bottom left; margin-left:2px; position:relative; top:0; left:0;}
+		ul#l_menu div.sub{display:none; width:216px;padding-bottom:10px; background:url(../img/menu/sub_bottom.gif) no-repeat bottom left; margin-left:2px; position:relative; top:0; left:0;}
 			ul#l_menu>li.current div.sub{display:block;}
-			ul#l_menu div.sub ul{width:216px; background:url(../img/sub_top.gif) no-repeat top left; padding-top:6px; list-style:none;}
-				ul#l_menu div.sub ul li{background:url(../img/sub_bg.gif) bottom no-repeat; width:204px; padding: 3px 6px;}
+			ul#l_menu div.sub ul{width:216px; background:url(../img/menu/sub_top.gif) no-repeat top left; padding-top:6px; list-style:none;}
+				ul#l_menu div.sub ul li{background:url(../img/menu/sub_bg.gif) bottom no-repeat; width:204px; padding: 3px 6px;}
 					ul#l_menu div.sub ul li a{width:200px; height:auto; display:block; padding:0 2px; font-size:12px; line-height:1.2em; color:#dfd265; text-decoration:none; vertical-align:text-bottom;}
 						ul#l_menu div.sub ul li a:hover, ul#l_menu div.sub ul li.current a{background:#1c487c; color:#fff;}
 
